@@ -92,7 +92,7 @@
         <jackson.annotations.version>${jackson.databind.version}</jackson.annotations.version>
         <jakarta.mail.version>1.6.5</jakarta.mail.version>
         <jboss-jaxrs-api_2.1_spec>2.0.1.Final</jboss-jaxrs-api_2.1_spec>
-        <jboss.logging.version>3.4.1.Final</jboss.logging.version>
+        <jboss.logging.version>3.4.3.Final</jboss.logging.version>
         <jboss.logging.tools.version>2.2.1.Final</jboss.logging.tools.version>
         <jboss.marshalling.version>2.0.11.Final</jboss.marshalling.version>
         <jboss-transaction-api_1.3_spec>2.0.0.Final</jboss-transaction-api_1.3_spec>
@@ -188,7 +188,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <surefire.system.args></surefire.system.args>
+        <surefire.system.args/>
 
         <!-- Tomcat versions -->
         <tomcat8.version>8.5.38</tomcat8.version>
@@ -256,7 +256,7 @@
         </developer>
     </developers>
 
-    <contributors></contributors>
+    <contributors/>
 
     <modules>
         <module>boms</module>
