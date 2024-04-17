@@ -59,7 +59,7 @@
         <!--
             Quarkiverse dependency versions
          -->
-        <io.quarkiverse.vault.version>1.0.2</io.quarkiverse.vault.version>
+        <io.quarkiverse.vault.version>3.2.0</io.quarkiverse.vault.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
